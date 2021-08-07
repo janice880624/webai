@@ -1,6 +1,7 @@
 j = 20
 webai.clear()
 
+# 莖
 webai.img.draw_line(160, 123-j, 160, 240, (139, 71, 38), 10)
 webai.img.draw_ellipse(190, 205, 15, 37, 50, (0, 205, 0), fill=True)
 webai.img.draw_ellipse(130, 190, 15, 37, 130, (0, 205, 0), fill=True)

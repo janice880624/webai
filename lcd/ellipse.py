@@ -1,9 +1,3 @@
-from webai import webai
-import image
-
-img = image.Image()
-webai.clear()
-
-img.draw_ellipse(150, 150, 40, 80)
-
-webai.show(img=img)
+webai.img = image.Image()
+webai.img.draw_ellipse(160, 120, 40, 80)
+webai.show(img=webai.img)
