@@ -1,5 +1,5 @@
-webai.img = image.Image()
 webai.clear()
+webai.img = image.Image()
 
 #臉
 webai.img.draw_ellipse(160, 140, 145, 130, 0, (30, 144, 255), fill=True)
